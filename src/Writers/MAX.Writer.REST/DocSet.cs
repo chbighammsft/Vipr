@@ -10,6 +10,8 @@ namespace MAX.Writer.REST
         private OdcmModel model;
 
         public IEnumerable<Namespace> Namespaces {get; private set;}
+        public List<Entity> Entities { get; private set; }
+        public Dictionary<string, RootType> RootTypes { get; private set; }
 
         public DocSet(OdcmModel model)
         {
@@ -17,6 +19,17 @@ namespace MAX.Writer.REST
 
             Namespaces = model.Namespaces.Where(n => !n.Name.Equals("edm", StringComparison.OrdinalIgnoreCase))
                 .Select(n => new Namespace(n, model));
+
+            Entities = new List<Entity>();
+            RootTypes = new Dictionary<string, RootType>();
+            foreach (var entity in model.EntityContainer.Properties)
+            {
+                Entities.Add(new Entity(entity));
+                if (!RootTypes.ContainsKey(entity.Type.Name))
+                {
+                    RootTypes.Add(entity.Type.Name, new RootType(entity));
+                }
+            }
         }
     }
 }

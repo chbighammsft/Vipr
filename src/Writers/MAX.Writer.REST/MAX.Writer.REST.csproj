@@ -41,11 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConfigurationService.cs" />
     <Compile Include="DocSet.cs" />
     <Compile Include="DocumentationGenerator.cs" />
+    <Compile Include="Entity.cs" />
     <Compile Include="Namespace.cs" />
     <Compile Include="RESTDocumentationWriter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RestWriterSettings.cs" />
+    <Compile Include="RootType.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Core\Vipr.Core\Vipr.Core.csproj">
