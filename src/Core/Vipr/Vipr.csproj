@@ -67,6 +67,10 @@
       <Project>{6d8d8008-0a34-490f-8b38-21d9c8bf25c0}</Project>
       <Name>Vipr.Reader.OData.v4</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\Writers\MAX.Writer.REST\MAX.Writer.REST.csproj">
+      <Project>{58009a0e-46a7-4b3f-8603-1428a4cd85bb}</Project>
+      <Name>MAX.Writer.REST</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Writers\Vipr.Writer.CSharp\Vipr.Writer.CSharp.csproj">
       <Project>{ea55efcf-3127-4e85-9a37-a645c06ffcc1}</Project>
       <Name>Vipr.Writer.CSharp</Name>
