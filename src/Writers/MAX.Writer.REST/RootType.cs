@@ -1,4 +1,5 @@
-﻿using Vipr.Core.CodeModel;
+﻿using System.Collections.Generic;
+using Vipr.Core.CodeModel;
 
 namespace MAX.Writer.REST
 {

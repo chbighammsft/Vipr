@@ -45,6 +45,7 @@
     <Compile Include="DocSet.cs" />
     <Compile Include="DocumentationGenerator.cs" />
     <Compile Include="Entity.cs" />
+    <Compile Include="MaxClass.cs" />
     <Compile Include="Property.cs" />
     <Compile Include="Namespace.cs" />
     <Compile Include="RESTDocumentationWriter.cs" />
