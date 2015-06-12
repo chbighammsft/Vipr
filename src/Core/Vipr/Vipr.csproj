@@ -63,6 +63,10 @@
     <None Include="Vipr.CommandLineInterface.targets" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Max.Writer.Rest\Max.Writer.Rest.csproj">
+      <Project>{3ffb734d-afea-4dfc-8977-1070aad1176e}</Project>
+      <Name>Max.Writer.Rest</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Readers\Vipr.Reader.OData.v4\Vipr.Reader.OData.v4.csproj">
       <Project>{6d8d8008-0a34-490f-8b38-21d9c8bf25c0}</Project>
       <Name>Vipr.Reader.OData.v4</Name>

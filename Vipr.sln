@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.22919.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{24442316-C08F-4365-9480-29A8C2809C14}"
 EndProject
@@ -46,6 +46,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EDMX", "EDMX", "{7E0558B9-4
 		test\Shared\Edmx\ActiveDirectory.edmx.xml = test\Shared\Edmx\ActiveDirectory.edmx.xml
 		test\Shared\Edmx\CRM.edmx.xml = test\Shared\Edmx\CRM.edmx.xml
 		test\Shared\Edmx\Exchange.edmx.xml = test\Shared\Edmx\Exchange.edmx.xml
+		test\Shared\Edmx\Graph.edmx.xml = test\Shared\Edmx\Graph.edmx.xml
 		test\Shared\Edmx\OneNote.edmx.xml = test\Shared\Edmx\OneNote.edmx.xml
 		test\Shared\Edmx\Sharepoint.edmx.xml = test\Shared\Edmx\Sharepoint.edmx.xml
 	EndProjectSection
@@ -84,6 +85,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpLiteWriterUnitTests", "test\CSharpLiteWriterUnitTests\CSharpLiteWriterUnitTests.csproj", "{8363235D-104C-496A-B547-A6C5B862B38D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyExtensionsLiteUnitTests", "test\ProxyExtensionsLiteUnitTests\ProxyExtensionsLiteUnitTests.csproj", "{FA0487A9-F0B6-487A-81A0-F007FDEA0016}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Max.Writer.Rest", "Max.Writer.Rest\Max.Writer.Rest.csproj", "{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -694,6 +697,46 @@ Global
 		{FA0487A9-F0B6-487A-81A0-F007FDEA0016}.Xamarin|Mixed Platforms.Build.0 = Release|Any CPU
 		{FA0487A9-F0B6-487A-81A0-F007FDEA0016}.Xamarin|x64.ActiveCfg = Release|Any CPU
 		{FA0487A9-F0B6-487A-81A0-F007FDEA0016}.Xamarin|x86.ActiveCfg = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Android|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Android|Any CPU.Build.0 = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Android|ARM.ActiveCfg = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Android|ARM.Build.0 = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Android|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Android|Mixed Platforms.Build.0 = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Android|x64.ActiveCfg = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Android|x64.Build.0 = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Android|x86.ActiveCfg = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Android|x86.Build.0 = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Debug|ARM.Build.0 = Debug|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Debug|x64.Build.0 = Debug|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Debug|x86.Build.0 = Debug|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Release|ARM.ActiveCfg = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Release|ARM.Build.0 = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Release|x64.ActiveCfg = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Release|x64.Build.0 = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Release|x86.ActiveCfg = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Release|x86.Build.0 = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Xamarin|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Xamarin|Any CPU.Build.0 = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Xamarin|ARM.ActiveCfg = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Xamarin|ARM.Build.0 = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Xamarin|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Xamarin|Mixed Platforms.Build.0 = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Xamarin|x64.ActiveCfg = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Xamarin|x64.Build.0 = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Xamarin|x86.ActiveCfg = Release|Any CPU
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E}.Xamarin|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -731,5 +774,6 @@ Global
 		{3B6F6698-B1DE-442E-831C-1F7C7F5D083B} = {B9D1484F-06EF-49BF-81A1-6B780FCAC0AA}
 		{8363235D-104C-496A-B547-A6C5B862B38D} = {3D4C4218-76C2-4A27-8013-C27F876019A3}
 		{FA0487A9-F0B6-487A-81A0-F007FDEA0016} = {9871E9CD-A446-4541-BB2A-4F3E8895272F}
+		{3FFB734D-AFEA-4DFC-8977-1070AAD1176E} = {016282B3-A368-4D11-A200-8E1E2FFB129C}
 	EndGlobalSection
 EndGlobal
