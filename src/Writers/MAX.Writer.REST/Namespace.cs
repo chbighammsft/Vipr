@@ -12,6 +12,9 @@ namespace MAX.Writer.REST
         private OdcmModel model;
         private OdcmNamespace n;
 
+        public IEnumerable<OdcmEnum> Enums { get { return n.Enums; } }
+        public IEnumerable<OdcmClass> Classes { get { return n.Classes; } }
+
         public Namespace(OdcmNamespace n, OdcmModel model)
         {
             this.n = n;
